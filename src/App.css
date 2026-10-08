@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  margin: 0;
+  color: blue;
+}
+
+.container {
+  flex: 1;
+  padding: 40px 20px;
+}
+
+.profile {
+  margin: 0 auto 25px;
+}
+
+.profile h2 {
+  margin-bottom: 20px;
+}
+
+.profile p {
+  margin: 8px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 25px 0 15px;
+}
+
+button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.toggle-button {
+  margin-top: 10px;
+}
+
+footer {
+  padding: 15px;
+  border-top: 1px solid #ddd;
+}
